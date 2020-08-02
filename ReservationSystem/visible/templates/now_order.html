@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>订单</title>
+    <link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/now_user.css">
+    <script src="/static/js/jQuery3.4.1.js"></script>
+    <script src="/static/bootstrap3/js/bootstrap.js"></script>
+    <script src="/static/js/settings.js"></script>
+</head>
+<body>
+<div>
+    <div id="top" class="container-fluid">
+        <div class="row nav bg-primary">
+            <div class="col-xs-6 nav-left my-btn">
+                <div id="user">
+                    <a id="index" href="now_user" class="select2 btn btn-primary btn-lg" type="button"
+                       data-toggle="collapse"
+                       data-target="#collapseExample" aria-expanded="false"
+                       aria-controls="collapseExample"><span class="glyphicon glyphicon-home"></span></a>
+                    <a href="now_cart" id="cart" class="select2 btn btn-primary btn-lg" type="button"
+                       data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+                       aria-controls="collapseExample">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        <span id="green_number">
+    <!--                            购物车菜品数量-->
+                        </span>
+                    </a>
+                    <a href="now_order" style="color: gold" class="select2 btn btn-primary  btn-lg" type="button"
+                       data-toggle="collapse"
+                       data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <span class="glyphicon glyphicon-list-alt"></span>
+                        <span id="order_number">
+    <!--                            订单数量-->
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-1 nav-center">
+                <span id="desk" class="select3">null</span>
+            </div>
+            <div class="col-xs-5 nav-right"></div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="container-fluid">
+            <div class="row p"></div>
+            <div class="row" id="nrcp">
+                <!--            各模块内容-->
+            </div>
+            <div class="row n"></div>
+        </div>
+    </div>
+</div>
+<div id="login_ti" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog"
+     aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div style="color: black" class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">提示信息</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="/static/js/now_user_order.js"></script>

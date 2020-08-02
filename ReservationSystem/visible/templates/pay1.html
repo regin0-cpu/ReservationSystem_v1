@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付消息</title>
+    <script src="/static/js/settings.js"></script>
+</head>
+<body>
+<h3>支付成功</h3>
+<h4><span id="m">3</span><span>秒后将转跳到订单页</span><a href="reserve_order">马上转跳</a></h4>
+</body>
+</html>
+<script>
+    var settimeid = setTimeout(function () {
+        window.location = window.globalConfig.MEROUTE +'reserve_order';
+        clearTimeout(settimeid);
+    }, 3000)
+</script>

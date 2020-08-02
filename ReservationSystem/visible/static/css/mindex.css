@@ -1,0 +1,776 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    out-line: nonecolor;
+}
+
+.top {
+    width: 494px;
+    height: 150px;
+    background-color: grey;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    border-radius: 25px 25px 0 0;
+}
+
+#up {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 35%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid blue;
+    z-index: 2;
+}
+
+#bottom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top: 1px solid blue;
+    z-index: 0;
+    /*display: none;*/
+}
+
+.ago {
+    position: absolute;
+    width: 494px;
+    height: 350px;
+    top: -1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 1px solid blue;
+    border-top: 0;
+    border-radius: 0 0 25px 25px;
+    background-color: white;
+    z-index: 3;
+}
+
+.inp {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    /*border: 1px solid deeppink;*/
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inp1 {
+    font-size: 20px;
+    color: gray;
+}
+
+.inp2 {
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding-left: 5px;
+}
+
+.inp3 {
+    width: 150px;
+    height: 40px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+
+.inp4 {
+    margin-top: 120px;
+}
+
+.inp3:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.inp3:active {
+    background-color: lightskyblue;
+}
+
+#l1 {
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid lightpink;*/
+    position: absolute;
+    top: 22px;
+    left: 110px;
+    background-image: url("../imgs/lp3.png");
+    background-size: 100%;
+}
+
+#l2 {
+    width: 80px;
+    height: 80px;
+    /*border: 1px solid lightskyblue;*/
+    position: absolute;
+    left: 50px;
+    background-image: url("../imgs/lp2.png");
+    background-size: 100%;
+}
+
+#l3 {
+    width: 60px;
+    height: 60px;
+    /*border: 1px solid indigo;*/
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    background-image: url("../imgs/lp1.png");
+    background-size: 100%;
+}
+
+#log {
+    position: absolute;
+    right: 145px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 210px;
+    height: 132px;
+}
+
+#l4 {
+    width: 71%;
+    height: 100%;
+    line-height: 50px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    border-top: 0;
+    z-index: 3;
+    background-color: grey;
+}
+
+#l {
+    width: 420px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    right: 32px;
+}
+
+.l5 {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color: grey;
+}
+
+.l51 {
+    left: 0;
+}
+
+.l52 {
+    right: 0;
+}
+
+.l6 {
+    width: 101%;
+    height: 101%;
+    z-index: 2;
+    background-color: white;
+}
+
+.l61 {
+    border-radius: 0 25px 0 0;
+}
+
+.l62 {
+    border-radius: 25px 0 0 0;
+}
+
+#sp {
+    color: gold;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.inp2:focus {
+    border-bottom: 1px solid red;
+    color: cadetblue;
+}
+
+#l1, #l3 {
+    animation: clock 4s linear infinite;
+}
+
+#l2 {
+    animation: ant 4s linear infinite;
+}
+
+@keyframes clock {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ant {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+#nr {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    height: 65%;
+}
+
+.updh1 {
+    animation: updh1 1s forwards;
+}
+
+.bottomdh1 {
+    animation: bottomdh1 1s forwards;
+}
+
+.updh2 {
+    animation: updh2 1s forwards;
+}
+
+.bottomdh2 {
+    animation: bottomdh2 1s forwards;
+}
+
+@keyframes bottomdh1 {
+    from {
+        top: 0
+    }
+    to {
+        top: 102%
+    }
+}
+
+@keyframes bottomdh2 {
+    from {
+        top: 102%
+    }
+    to {
+        top: 0
+    }
+}
+
+@keyframes updh1 {
+    from {
+        height: 35%
+    }
+    to {
+        height: 150px
+    }
+}
+
+@keyframes updh2 {
+    from {
+        height: 150px
+    }
+    to {
+        height: 35%
+    }
+}
+
+.logdh1 {
+    animation: logdh1 1s forwards;
+}
+
+.logdh2 {
+    animation: logdh2 1s forwards;
+}
+
+@keyframes logdh1 {
+    from {
+        right: 145px;
+    }
+    to {
+        right: 0;
+    }
+}
+
+@keyframes logdh2 {
+    from {
+        right: 0;
+    }
+    to {
+        right: 145px;
+    }
+}
+
+.topdh1 {
+    animation: topdh1 1s forwards;
+}
+
+.topdh2 {
+    animation: topdh2 1s forwards;
+}
+
+@keyframes topdh1 {
+    from {
+        width: 494px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-top: 2px solid blue;
+        border-left: 2px solid blue;
+        border-right: 2px solid blue;
+        border-radius: 25px 25px 0 0;
+    }
+    to {
+        width: 100%;
+        left: 0;
+        transform: translate(0, 0);
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0 0 0 0;
+    }
+}
+
+@keyframes topdh2 {
+    from {
+        width: 100%;
+        left: 0;
+        transform: translate(0, 0);
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0 0 0 0;
+    }
+    to {
+        width: 494px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-top: 2px solid blue;
+        border-left: 2px solid blue;
+        border-right: 2px solid blue;
+        border-radius: 25px 25px 0 0;
+    }
+}
+
+.spdh1 {
+    animation: spdh1 0.1s forwards;
+}
+
+.spdh2 {
+    animation: spdh2 0.1s forwards;
+}
+
+@keyframes spdh1 {
+    from {
+        font-size: 30px;
+    }
+    to {
+        font-size: 0;
+    }
+}
+
+@keyframes spdh2 {
+    from {
+        font-size: 0;
+    }
+    to {
+        font-size: 30px;
+    }
+}
+
+.ldh1 {
+    animation: ldh1 1s forwards;
+}
+
+.ldh2 {
+    animation: ldh2 1s forwards;
+}
+
+@keyframes ldh1 {
+    from {
+        right: 32px;
+        width: 420px;
+        height: 50px;
+        bottom: -50px;
+    }
+    to {
+        right: 0;
+        width: 0;
+        height: 0;
+        bottom: 0;
+    }
+}
+
+@keyframes ldh2 {
+    from {
+        right: 0;
+        width: 0;
+        height: 0;
+        bottom: 0;
+    }
+    to {
+        right: 32px;
+        width: 420px;
+        height: 50px;
+        bottom: -50px;
+    }
+}
+
+.l4dh1w {
+    animation: l4dh1 1s forwards;
+}
+
+.l4dh2w {
+    animation: l4dh2 1s forwards;
+}
+
+@keyframes l4dh1 {
+    from {
+        width: 300px;
+        height: 50px;
+        border-radius: 0 0 20px 20px;
+    }
+    to {
+        width: 50px;
+        height: 30px;
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@keyframes l4dh2 {
+    from {
+        width: 50px;
+        height: 30px;
+        border-radius: 0 0 10px 10px;
+    }
+    to {
+        width: 300px;
+        height: 50px;
+        border-radius: 0 0 20px 20px;
+    }
+}
+
+
+.gl {
+    float: left;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    position: relative;
+    top: -160px;
+    height: 150px;
+    text-align: center;
+    border-bottom: 3px solid red;
+    z-index: 5;
+    /*display: none;*/
+}
+
+.log2 {
+    width: 100px;
+    height: 150px;
+    user-select: none;
+    line-height: 220px;
+}
+
+.log2 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-size: 50px;
+}
+
+.show {
+    color: hotpink;
+}
+
+.out {
+    color: white;
+}
+
+.gldh11 {
+    animation: gldh1 1s linear forwards;
+    animation-delay: 0.8s;
+}
+
+.gldh12 {
+    animation: gldh1 1s linear forwards;
+    animation-delay: 1s;
+}
+
+.gldh13 {
+    animation: gldh1 1s linear forwards;
+    animation-delay: 1.2s;
+}
+
+.gldh14 {
+    animation: gldh1 1s linear forwards;
+    animation-delay: 1.4s;
+}
+
+.gldh2 {
+    animation: gldh2 0.2s linear forwards;
+}
+
+@keyframes gldh1 {
+    from {
+        top: -160px;
+        border-bottom: 3px solid red;
+    }
+    to {
+        top: 0;
+        border-bottom: 0 solid red;
+    }
+}
+
+@keyframes gldh2 {
+    from {
+        top: 0;
+        border-bottom: 0 solid red;
+    }
+    to {
+        top: -160px;
+        border-bottom: 3px solid red;
+    }
+}
+
+
+.down_table_c th, td {
+    background: lightseagreen;
+    text-align: center;
+    width: 90px;
+    height: 60px;
+}
+
+.down_table_c input {
+    border: 5px solid rgba(0, 0, 0, .1);
+    background: lightblue;
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    color: black;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    width: 90%;
+    height: 90%;
+    font-size: 15px;
+}
+
+.down_table_ch input {
+    border: 5px solid rgba(0, 0, 0, .1);
+    background: lightblue;
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    color: black;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    width: 90%;
+    height: 90%;
+    font-size: 15px;
+}
+
+.down_c {
+    position: absolute;
+    top: 0;
+    /* background: lightgrey; */
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+#down {
+    display: none;
+}
+
+.down_table_c {
+    margin: 10px auto;
+    width: 800px;
+    height: 200px;
+    display: none;
+}
+
+.down_table_ch {
+    margin: 10px auto;
+    width: 800px;
+    display: none;
+}
+
+#lock {
+    font-size: 0;
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 62px;
+    left: 150px;
+}
+
+#refresh {
+    font-size: 0;
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 32px;
+    left: 82px;
+}
+
+#lock:hover {
+    color: hotpink;
+}
+
+#refresh:hover {
+    color: hotpink;
+}
+
+
+.lock-dh1 {
+    animation: lock_dh1 0.8s linear forwards;
+    animation-delay: 1.1s;
+}
+
+.lock-dh2 {
+    animation: lock_dh2 0.8s linear forwards;
+}
+
+@keyframes lock_dh1 {
+    from {
+        font-size: 0;
+    }
+    to {
+        font-size: 20px;
+    }
+}
+
+@keyframes lock_dh2 {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 0;
+    }
+}
+
+.refresh-dh1 {
+    animation: refresh_dh1 0.8s linear forwards;
+    animation-delay: 1.1s;
+}
+
+.refresh-dh2 {
+    animation: refresh_dh2 0.8s linear forwards;
+}
+
+@keyframes refresh_dh1 {
+    from {
+        font-size: 0;
+    }
+    to {
+        font-size: 16px;
+    }
+}
+
+@keyframes refresh_dh2 {
+    from {
+        font-size: 16px;
+    }
+    to {
+        font-size: 0;
+    }
+}
+
+.ico {
+    margin-right: 5px;
+}
+
+.into {
+    display: inline-block;
+    width: 16%;
+}
+
+
+#info {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 77%;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    overflow-y: scroll;
+    display: none;
+}
+
+.reserve_but {
+    color: #5bc0de;
+}
+
+.cuisine_but {
+    color: red;
+}
+
+.data {
+    width: 98%;
+    margin: 0 auto 10px;
+    user-select: none;
+}
+
+.tis {
+    display: inline-block;
+    transform: rotate(-20deg);
+    float: right;
+    margin-right: 10%;
+    color: rgba(75, 75, 75, 0.5);
+}
+
+:focus {
+    outline: 0;
+}
+
+.down_order {
+    display: inline-block;
+    margin-right: 30px;
+    color: rgb(3, 0, 255);
+}
+
+.down_order2 {
+    display: none;
+}
+
+.info_green {
+    display: inline-block;
+    color: #fefdff;
+    width: 24%;
+    height: 30px;
+    margin-top: 6px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.into_h:hover {
+    color: rgb(0, 9, 255);
+}
+
+.green_info {
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgba(255, 0, 218, 0.5);
+    border-radius: 20px;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>管理</title>
+    <link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/mindex.css">
+
+    <script src="/static/js/jQuery3.4.1.js"></script>
+    <script src="/static/bootstrap3/js/bootstrap.js"></script>
+    <script src="/static/js/settings.js"></script>
+</head>
+<body>
+<div id="up">
+    <div class="gl" id="indent">
+        <div class="log2"><span class="glyphicon glyphicon-time"></span>实时订单</div>
+    </div>
+    <div class="gl" id="reserve">
+        <div class="log2"><span class="glyphicon glyphicon-pushpin"></span>预订订单</div>
+    </div>
+    <div class="gl" id="cuisine">
+        <div class="log2"><span class="glyphicon glyphicon-book"></span>历史订单</div>
+    </div>
+    <div class="top">
+        <div id="log">
+            <span id="refresh" class="glyphicon glyphicon-repeat"></span>
+            <span id="lock" class="glyphicon glyphicon-lock"></span>
+            <div id="l1"></div>
+            <div id="l2"></div>
+            <div id="l3"></div>
+        </div>
+        <div id="l">
+            <div class="l5 l51">
+                <div class="l6 l61"></div>
+            </div>
+            <div class="l5 l52">
+                <div class="l6 l62"></div>
+            </div>
+            <div id="l4">
+                <span id="sp">管理员登陆</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="nr">
+    <div id="bottom">
+        <div class="ago">
+            <div class="inp inp4">
+                <label for="username">用户名：</label>
+                <input class="inp1 inp2" id="username" name="username" placeholder="请输入用户名..." type="text">
+            </div>
+            <div class="inp">
+                <label for="password">密&nbsp;&nbsp;&nbsp;码：</label>
+                <input class="inp1 inp2" type="password" name="password" id="password" placeholder="请输入密码...">
+            </div>
+            <div class="inp">
+                <input class="inp1 inp3" id="login" type="button" value="登 陆">
+            </div>
+        </div>
+    </div>
+    <div id="down" class="down_c">
+    </div>
+</div>
+<div id="info">
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">
+                    订单详细信息
+                </h4>
+            </div>
+            <div class="modal-body">
+                <!--                在这里添加信息-->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">打印
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<div id="order_ti" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog"
+     aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div style="color: black" class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel2">提示信息</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="/static/js/mindex.js"></script>

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c44dcba6-7db9-4fc4-a19a-b69455fe3680" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/code_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key_file/alipay_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key_file/app_private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key_file/app_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/menu/IMG20190911181814.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/menu/刀削面.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/menu/红烧牛肉面.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/management_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/update_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/alipay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verifys/management_verifys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/css/now_user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/imgs/booatrip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/imgs/git.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/imgs/pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/js/now_user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/js/now_user_cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/js/now_user_order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/js/reserve_user_order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/js/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/static/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/now_cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/now_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/now_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/pay1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/pay2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/pay3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/pay4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../visible/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mealAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mealAdmin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mealAdmin/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/mealAdmin/code_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mealAdmin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mealAdmin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mealAdmin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mealAdmin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/message/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/message/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/message/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/message/customer_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verifys/user_verifys.py" beforeDir="false" afterPath="$PROJECT_DIR$/verifys/user_verifys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wtoken/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wtoken/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/flask_visible.py" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/flask_visible.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/static/css/cindex.css" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/static/css/reserve_user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/static/css/mindex.css" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/static/css/mindex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/static/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/static/js/reserve_user_cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/static/js/cindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/static/js/reserve_user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/static/js/mindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/static/js/mindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/static/js/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/templates/reserve_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/templates/indexC.html" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/templates/reserve_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/templates/indexM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visible/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../visible/templates/reserve_order.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mealAdmin$views.coverage" NAME="views Coverage Results" MODIFIED="1582601187434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message" />
+    <SUITE FILE_PATH="coverage/mealAdmin$.coverage" NAME="达内笔记 Coverage Results" MODIFIED="1577019566005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Volumes/NO NAME/spider" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer/code_views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wtoken/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create</find>
+      <find>delete</find>
+      <find>print</find>
+      <find>index</find>
+      <find>request</find>
+      <find>self.order_id</find>
+      <find>self.user_number</find>
+      <find>update_order</find>
+      <find>self.carts</find>
+      <find>Customer</find>
+      <find>all</find>
+      <find>wtoken</find>
+      <find>passworg</find>
+      <find>get_id</find>
+      <find>12</find>
+      <find>127</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.request</replace>
+      <replace>order_id</replace>
+      <replace>user_number</replace>
+      <replace>carts</replace>
+      <replace>Management</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="/usr/local/bin/git" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wtoken/urls.py" />
+        <option value="$PROJECT_DIR$/mealAdmin/app_public_key.pem" />
+        <option value="$PROJECT_DIR$/key_file/app_public_key.pem" />
+        <option value="$PROJECT_DIR$/key_file/alipay_public_key.pem" />
+        <option value="$PROJECT_DIR$/message/views.py" />
+        <option value="$PROJECT_DIR$/mealAdmin/urls.py" />
+        <option value="$PROJECT_DIR$/verifys/user_verifys.py" />
+        <option value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/generic/base.py" />
+        <option value="$PROJECT_DIR$/management/models.py" />
+        <option value="/Volumes/NO NAME/spider/达内笔记.py" />
+        <option value="$PROJECT_DIR$/management/urls.py" />
+        <option value="$PROJECT_DIR$/message/update_order.py" />
+        <option value="$PROJECT_DIR$/customer/admin.py" />
+        <option value="$PROJECT_DIR$/verifys/management_verifys.py" />
+        <option value="$PROJECT_DIR$/pay/urls.py" />
+        <option value="$PROJECT_DIR$/pay/alipay.py" />
+        <option value="$PROJECT_DIR$/pay/models.py" />
+        <option value="$PROJECT_DIR$/message/models.py" />
+        <option value="$PROJECT_DIR$/management/admin.py" />
+        <option value="$PROJECT_DIR$/management/views.py" />
+        <option value="$PROJECT_DIR$/message/customer_views.py" />
+        <option value="$PROJECT_DIR$/message/urls.py" />
+        <option value="$PROJECT_DIR$/mealAdmin/settings.py" />
+        <option value="$PROJECT_DIR$/pay/views.py" />
+        <option value="$PROJECT_DIR$/message/admin.py" />
+        <option value="$PROJECT_DIR$/wtoken/views.py" />
+        <option value="$PROJECT_DIR$/mealAdmin/celery.py" />
+        <option value="$PROJECT_DIR$/mealAdmin/code_info.py" />
+        <option value="$PROJECT_DIR$/customer/urls.py" />
+        <option value="$PROJECT_DIR$/customer/views.py" />
+        <option value="$PROJECT_DIR$/customer/models.py" />
+        <option value="$PROJECT_DIR$/customer/code_views.py" />
+        <option value="$PROJECT_DIR$/customer/tasks.py" />
+        <option value="$PROJECT_DIR$/message/management_views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="wtoken" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.26723224" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/key_file" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pay" />
+      <recent name="$PROJECT_DIR$/mealAdmin" />
+      <recent name="$PROJECT_DIR$/customer" />
+      <recent name="$PROJECT_DIR$/message/menu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="达内笔记" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mealAdmin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/Volumes/NO NAME/spider" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="/Volumes/NO NAME/spider/达内笔记.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mealAdmin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/message" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/message/customer_views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mealAdmin" type="Python.DjangoServer" factoryName="Django server">
+      <module name="mealAdmin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.达内笔记" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c44dcba6-7db9-4fc4-a19a-b69455fe3680" name="Default Changelist" comment="" />
+      <created>1574306914086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574306914086</updated>
+      <workItem from="1574306915544" duration="8675000" />
+      <workItem from="1574345128422" duration="1864000" />
+      <workItem from="1574399572625" duration="960000" />
+      <workItem from="1574484618272" duration="9634000" />
+      <workItem from="1574557525788" duration="21229000" />
+      <workItem from="1574657152529" duration="11946000" />
+      <workItem from="1574731745104" duration="5144000" />
+      <workItem from="1574778777955" duration="1311000" />
+      <workItem from="1574831862187" duration="3993000" />
+      <workItem from="1574907303191" duration="1985000" />
+      <workItem from="1574949352762" duration="1946000" />
+      <workItem from="1574993098693" duration="3998000" />
+      <workItem from="1575008196370" duration="11113000" />
+      <workItem from="1575038789552" duration="4843000" />
+      <workItem from="1575085055559" duration="1066000" />
+      <workItem from="1575285971131" duration="21000" />
+      <workItem from="1576149624177" duration="2595000" />
+      <workItem from="1576201696331" duration="3725000" />
+      <workItem from="1576324532132" duration="134000" />
+      <workItem from="1576464372653" duration="164000" />
+      <workItem from="1576547557131" duration="7044000" />
+      <workItem from="1576633062067" duration="11331000" />
+      <workItem from="1576719990678" duration="24001000" />
+      <workItem from="1576818180513" duration="6469000" />
+      <workItem from="1576932470733" duration="2896000" />
+      <workItem from="1577070758096" duration="1151000" />
+      <workItem from="1578723814891" duration="294000" />
+      <workItem from="1578730146987" duration="184000" />
+      <workItem from="1578730377934" duration="2357000" />
+      <workItem from="1579399397193" duration="2154000" />
+      <workItem from="1579411223155" duration="1909000" />
+      <workItem from="1579506189851" duration="895000" />
+      <workItem from="1579593575015" duration="2524000" />
+      <workItem from="1582598126722" duration="269000" />
+      <workItem from="1582598518516" duration="227000" />
+      <workItem from="1582598750625" duration="1115000" />
+      <workItem from="1582601675366" duration="26000" />
+      <workItem from="1582601705600" duration="4600000" />
+      <workItem from="1582795642643" duration="6343000" />
+      <workItem from="1582854403476" duration="568000" />
+      <workItem from="1582857321604" duration="6381000" />
+      <workItem from="1582940438546" duration="17917000" />
+      <workItem from="1583031959314" duration="12708000" />
+      <workItem from="1583111566910" duration="6962000" />
+      <workItem from="1583155867671" duration="347000" />
+      <workItem from="1583201311498" duration="20849000" />
+      <workItem from="1583283649462" duration="12267000" />
+      <workItem from="1583399655994" duration="3117000" />
+      <workItem from="1583459035798" duration="7045000" />
+      <workItem from="1583502266511" duration="5144000" />
+      <workItem from="1583546342165" duration="12704000" />
+      <workItem from="1583588488121" duration="1136000" />
+      <workItem from="1583719401576" duration="5700000" />
+      <workItem from="1583733609910" duration="3080000" />
+      <workItem from="1594367284462" duration="1206000" />
+      <workItem from="1594462082155" duration="3234000" />
+      <workItem from="1594542790639" duration="440000" />
+      <workItem from="1594605046273" duration="992000" />
+      <workItem from="1594696246714" duration="271000" />
+      <workItem from="1595152548158" duration="903000" />
+      <workItem from="1595503600470" duration="615000" />
+      <workItem from="1595554179110" duration="662000" />
+      <workItem from="1595837555341" duration="770000" />
+      <workItem from="1595907340486" duration="2989000" />
+      <workItem from="1595926072796" duration="890000" />
+      <workItem from="1596107129038" duration="378000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="301410000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1366" height="745" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21072507" />
+      <window_info auto_hide="true" id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924472" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848944" weight="0.47707736" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007553" side_tool="true" visible="true" weight="0.30168453" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-698">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="631" column="4" selection-start-line="631" selection-start-column="4" selection-end-line="631" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/crypto/Signature/PKCS1_v1_5.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/sms/sms.py" />
+    <entry file="file://$PROJECT_DIR$/key_file/alipay_public_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="392" selection-start-line="1" selection-start-column="392" selection-end-line="1" selection-end-column="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/message/code/b.png" />
+    <entry file="file://$PROJECT_DIR$/a.png" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mealAdmin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mealAdmin/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#226#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mealAdmin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="167" column="13" selection-start-line="167" selection-end-line="167" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/update_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtoken/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verifys/management_verifys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verifys/user_verifys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/excel_handle-20200720194727.py" />
+    <entry file="file://$PROJECT_DIR$/customer/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mealAdmin/code_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/management_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/alipay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/customer_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="176" column="17" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/code_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtoken/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
